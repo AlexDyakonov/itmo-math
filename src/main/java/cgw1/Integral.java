@@ -37,19 +37,19 @@ public class Integral {
         }
         if (t == 1){
             double j = 0;
-            return fillArray(arr, j);
+            return counting(arr, j);
         }
         else if (t == 2) {
             double j = 1;
-            return fillArray(arr, j);
+            return counting(arr, j);
         }
         else if (t == 3){
             double j = 0.5;
-            return fillArray(arr, j);
+            return counting(arr, j);
         }
         else if (t == 4) {
             double j = Math.random();
-            return fillArray(arr, j);
+            return counting(arr, j);
         }
         else if (t == 0) {
             Scanner scanner = new Scanner(System.in);
@@ -59,13 +59,13 @@ public class Integral {
                 System.out.println("Incorrect input");
                 System.exit(1); }
             else {
-                return fillArray(arr, j);
+                return counting(arr, j);
             }
         }
         return 0;
     }
 
-    private double fillArray(double[] arr, double j) {
+    private double counting(double[] arr, double j) {
         for (int i = 0; i<arr.length; i++) {
             arr[i] = -Math.cos((a + i * (b-a)/(n-1) + j * (b-a)/(n-1)));
         }

@@ -1,0 +1,12 @@
+\begin{lstlisting}[language=R, caption={Smoothed estimation of mean trajectory}, label={lst:Rcode}]
+# Compute the optimally-smoothed mean
+lambdaOpt <- 10^logLambda[which(estimationError == min(estimationError))]
+smoothOperatorOpt <- fdPar(bSplineBasis, int2Lfd(2), lambdaOpt) 
+smoothSpectrumOpt <- smooth.basis(logFreq, rawData, smoothOperatorOpt)
+smoothMeanOpt <- PhiMatrix %*% mean.fd(smoothSpectrumOpt$fd)$coefs
+
+# Plot data along unsmoothed mean and optimally-smoothed mean
+matplot(logFreq, rawData, type="l", col=brewer.pal(8, "Set2"), xlab="Log frequency", ylab="Log power spectrum", main="Raw data with optimally-smoothed and\n unsmoothed means")
+lines(logFreq, unsmoothedMean, lwd=2.5, col="firebrick3")
+lines(logFreq, smoothMeanOpt, lwd=2.5, col="blue3")
+\end{lstlisting}
