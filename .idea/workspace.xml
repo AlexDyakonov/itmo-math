@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67f3f84c-f1a8-4a7b-9d9c-d712098d64ea" name="Changes" comment="Bug fix. Now integral sum counts correctly">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cgw1/Integral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cgw1/Integral.java" afterDir="false" />
-    </list>
+    <list default="true" id="67f3f84c-f1a8-4a7b-9d9c-d712098d64ea" name="Changes" comment="Bug fix and added tex documentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,13 +24,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NYSukO8rasFWHujrV5IGOhz0ej" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,6 +80,7 @@
       <workItem from="1680634275850" duration="289000" />
       <workItem from="1680709336862" duration="383000" />
       <workItem from="1680772592084" duration="20000" />
+      <workItem from="1681132757266" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="Bug fix. Now integral sum counts correctly">
       <created>1679842299938</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679842299938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bug fix and added tex documentation">
+      <created>1681132896990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681132896990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +114,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Bug fix. Now integral sum counts correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix. Now integral sum counts correctly" />
+    <MESSAGE value="Bug fix and added tex documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix and added tex documentation" />
   </component>
 </project>
